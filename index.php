@@ -7,10 +7,10 @@
     <title>HNGI8 Task</title>
 </head>
 <body>
-    <a href="/task2/">
+    <a href="./task2/">
         <h1>Task Two</h1>
     </a>
-    <a href="/task4/">
+    <a href="./task4/">
         <h2>Task Four</h2>
     </a>
 </body>
