@@ -17,12 +17,14 @@ if ($conn->query($sql) === TRUE) {
 // Set session variables
 $_SESSION["msg"] = "Thanks for contacting us, your message has been received";
 $_SESSION["success"] = "success";
-header("Location: index.php?msg");
+// header("Location: index.php?msg");
+echo $name, $email, $subject, $message;
 
 } else {
     $_SESSION["msg"] = "Failed to send message";
     $_SESSION["msg_type"] = "error";
-header("Location: index.php?msg");
+    echo $conn->connect_error;
+// header("Location: index.php?msg");
 
 }
 
