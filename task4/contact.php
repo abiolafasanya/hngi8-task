@@ -10,7 +10,7 @@ $email = $conn->real_escape_string($_POST['email']);
 $subject = $conn->real_escape_string($_POST['subject']);
 $message = $conn->real_escape_string($_POST['message']);
 
-$sql = "INSERT INTO messages (name, email, subject, message)
+$sql = "INSERT INTO messages (name, email, subject, messages)
 VALUES ('$name', '$email', '$subject', '$message')";
 
 if ($conn->query($sql) === TRUE) {
