@@ -6,7 +6,7 @@ font-family: sans-serif;
 }
 
 nav{
-width: inherit;
+width: 100%;
 padding: 0;
 margin: 0;
 }
@@ -16,7 +16,7 @@ font-size: 22px;
 justify-content: center;
 align-items: center;
 background-color: azure;
-width: inherit;
+width: 100%;
 }
 .nav-links a {
 display: block;
