@@ -3,6 +3,7 @@ margin: 0;
 padding: 0;
 background-color: rgb(216, 221, 221);
 font-family: sans-serif;
+box-sizing: border-box;
 }
 
 nav{
