@@ -147,7 +147,7 @@
                         <label for="message">Message</label>
                         <textarea name="message" id="" class="form-control" placeholder="Type Message here"></textarea>
                     </div>
-                    <button class="btn">Submit</button>
+                    <button class="btn" name="contact">Submit</button>
                 </form>
             </div>
         </div>
