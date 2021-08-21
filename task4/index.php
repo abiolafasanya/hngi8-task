@@ -46,19 +46,19 @@
                 </p>
                 <div class="about">
                     <span>Name:</span>
-                    <span>{{.Profile.Name}}</span>
+                    <span>Abiola Fasanya</span>
                 </div>
                 <div class="about">
                     <span>Email:</span>
-                    <span>{{.Profile.Email}}</span>
+                    <span>harbiola78@gmail.com</span>
                 </div>
                 <div class="about">
                     <span>Phone:</span>
-                    <span>+{{.Profile.Phone}}</span>
+                    <span>+2348102307473</span>
                 </div>
                 <div class="about">
                     <span>Location:</span>
-                    <span>{{.Profile.Location}}</span>
+                    <span>Lagos, Nigeria</span>
                 </div>
             </div>
             <div class="card">
