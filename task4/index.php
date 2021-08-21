@@ -122,15 +122,14 @@
             <div class="card">
                 <!-- contact -->
                 <h2>Contact me</h2>
-                <?php
-                       if (isset($_GET['msg'])) { ?>
+                <?php if (isset($_GET['msg'])): ?>
                 <div class="success">                   
                         <?php
                           echo $_SESSION['msg'];
                           unset($_SESSION['msg']);
-                       } ?>
+                        ?>
                 </div>
-     
+                <?php endif ?>
                 <form action="contact.php" method="post">
                     <div class="form-group">
                         <label for="name">Name</label>
