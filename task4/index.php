@@ -122,8 +122,7 @@
             <div class="card">
                 <!-- contact -->
                 <h2>Contact me</h2>
-                <?php 
-                       session_start();
+                <?php
                        if (isset($_GET['msg'])) { ?>
                 <div class="success">                   
                         <?php
@@ -132,7 +131,7 @@
                        } ?>
                 </div>
      
-                <form action="" method="post">
+                <form action="contact.php" method="post">
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" name="name" class="form-control">
@@ -171,6 +170,6 @@
             <div>Abiola Fasnya Resume | HNGI8 2021 | &copy; harbiola</div>
         </div>
     </div>
-    <!-- <script src="public/main.js"></script> -->
+       <script src="public/main.js"></script>
 </body>
 </html>
