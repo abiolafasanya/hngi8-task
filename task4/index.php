@@ -122,23 +122,14 @@
             <div class="card">
                 <!-- contact -->
                 <h2>Contact me</h2>
-                <?php
-
-                if (isset($_GET['msg'])){
-                    if ($_SESSION['msg'] !== null ):
-                ?>
-
-                <div class="msg-<?=$_SESSION['msg_type'] ?>">
-                    <h3>
+                <?php if (isset($_GET['msg'])) { ?>
+                <div class="success">                   
                         <?php
-                        echo $_SESSION['msg'];
-                        unset($_SESSION['msg']);
-                        ?>
-                    </h3>
+                          echo $_SESSION['msg'];
+                          unset($_SESSION['msg']);
+                       } ?>
                 </div>
-
-                <?php endif; } ?>
-
+     
                 <form action="" method="post">
                     <div class="form-group">
                         <label for="name">Name</label>
@@ -178,6 +169,6 @@
             <div>Abiola Fasnya Resume | HNGI8 2021 | &copy; harbiola</div>
         </div>
     </div>
-    <script src="public/main.js"></script>
+    <-- <script src="public/main.js"></script> -->
 </body>
 </html>
