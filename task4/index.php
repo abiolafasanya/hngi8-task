@@ -122,7 +122,9 @@
             <div class="card">
                 <!-- contact -->
                 <h2>Contact me</h2>
-                <?php if (isset($_GET['msg'])) { ?>
+                <?php 
+                       session_start();
+                       if (isset($_GET['msg'])) { ?>
                 <div class="success">                   
                         <?php
                           echo $_SESSION['msg'];
