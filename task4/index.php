@@ -169,6 +169,6 @@
             <div>Abiola Fasnya Resume | HNGI8 2021 | &copy; harbiola</div>
         </div>
     </div>
-    <-- <script src="public/main.js"></script> -->
+    <--! <script src="public/main.js"></script> -->
 </body>
 </html>
